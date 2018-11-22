@@ -1,0 +1,45 @@
+.heading{
+	margin : 150px 100px 100px 100px;
+	color : #ccc;
+}
+.heading h1{
+	font-weight : 100;
+	
+	font-size : 50px;
+	
+}
+a{
+	text-decoration : none;
+}
+.heading-details{
+	height : 46px;
+	overflow : hidden;
+	transition : 2s;
+	text-align : justify;
+	
+}
+
+.heading-btn{
+	background : #557d90;
+	color : #ccc;
+	border : none;
+	padding : 10px  15px;
+	font-family : century gothic;
+	border-radius : 5px;
+	cursor : pointer;
+	
+}
+.heading-seemore{
+	opacity: 0;
+	transition : 7s;
+}
+@media(max-width : 900px){
+	.heading {
+		height : 100vh;
+		margin : 100px 10px 100px 10px;
+		
+	}
+	.heading h1{
+	}
+	
+}
