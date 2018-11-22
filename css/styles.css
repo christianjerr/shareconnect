@@ -136,7 +136,7 @@ header {
 	
 .denied {
   color: maroon;
-  font-weight: 100;
+  font-weight: bold;
   text-shadow: 5px 5px 5px black; }
 
 .denied-log {
@@ -145,7 +145,7 @@ header {
 .denied-reg {
   visibility: visible;
   color: white;
-  font-weight: 100;
+  font-weight: bold;
   color: maroon;
   text-shadow: 5px 5px 5px black; }
 
