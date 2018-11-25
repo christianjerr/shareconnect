@@ -1,3 +1,20 @@
+body{
+	color : #ccc;
+	height : 100%;
+}
+h1{
+	font-weight : 100;
+}
+.btn{
+	background: #557d90;
+    color: #ccc;
+    border: none;
+    padding: 10px 15px;
+    font-family: century gothic;
+    border-radius: 5px;
+    cursor: pointer;
+	font-size : 13px;
+}
 .heading{
 	margin : 150px 100px 100px 100px;
 	color : #ccc;
@@ -35,11 +52,49 @@ a{
 }
 @media(max-width : 900px){
 	.heading {
-		height : 100vh;
+		height : 100%;
 		margin : 100px 10px 100px 10px;
 		
 	}
 	.heading h1{
 	}
 	
+}
+
+
+
+.title{
+	opacity : 0;
+	transition : 5s;
+	z-index : 900;
+}
+
+.download-container{
+	padding : 0px 100px;
+	display : grid;
+	grid-template-columns : 1fr 1fr 1fr;
+	grid-gap : 1rem;
+	text-align : center;
+
+}
+.download-container div{
+	background : rgba(0,0,0,0.5);
+	padding : 25px;
+	
+	box-shadow : 5px 5px 5px black;
+}
+.download-picture{
+	height : 300px;
+	box-shadow : 5px 5px 5px black;
+}
+
+@media(max-width : 900px){
+	.download-container{
+		padding : 0px 10px;
+		display: grid;
+		grid-template-columns : 1fr;
+	}
+	.btn{
+		width : 100%;
+	}
 }

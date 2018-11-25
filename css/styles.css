@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/wallpaper3.jpg) no-repeat;
-  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/wallpaper3.jpg) no-repeat;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   font-family: century gothic;
@@ -99,6 +99,9 @@ header {
   display: none; }
 
 @media (max-width: 900px) {
+	body{
+		height : 100%;
+	}
   header {
     padding: 0px 10px; }
 
@@ -109,9 +112,10 @@ header {
     margin-top: 30%; }
 
   header nav {
+	 z-index : 1000;
     position: absolute;
     top: 49px;
-    background:rgba(0,0,0,0.5);
+    background:black;
     width: 100%;
     right: 0;
     left: 0;
@@ -150,8 +154,8 @@ header {
   text-shadow: 5px 5px 5px black; }
 
 .second-section{
-	 
-	height  : 100%;
+	 margin-top : -50px;
+	height  : 50vh;
 	background : #557d90;
 	color : white;
 	padding : 100px;
@@ -169,7 +173,9 @@ header {
 	
 }
 @media(max-width : 900px){
+	
 	.second-section {
+		height : 100%;
 		display : grid;
 		grid-template-columns : 1fr;
 		padding : 100px 10px 100px 10px;

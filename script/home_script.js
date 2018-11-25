@@ -39,3 +39,7 @@ headingBtn.addEventListener('click' , function(){
 		headingStatus = false;
 	}
 })
+
+document.body.onload = function(){
+	document.querySelector('.title').setAttribute('style', 'opacity : 1');
+}
