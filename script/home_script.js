@@ -43,3 +43,21 @@ headingBtn.addEventListener('click' , function(){
 document.body.onload = function(){
 	document.querySelector('.title').setAttribute('style', 'opacity : 1');
 }
+
+
+
+let status = document.getElementById('home-input');
+let homeBtn = document.getElementById('home-btn');
+let list = document.querySelector('.post');
+
+
+homeBtn.addEventListener('click' , function(){
+	let li = document.createElement('li');
+	
+	li.append(`${status.value}`);	
+	list.appendChild(li);
+	
+	
+})
+
+
