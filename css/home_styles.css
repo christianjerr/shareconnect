@@ -1,6 +1,6 @@
 body{
 	color : #ccc;
-	height : 100vh;
+	height : 100%;
 }
 h1{
 	font-weight : 100;
@@ -52,7 +52,7 @@ a{
 }
 @media(max-width : 900px){
 	body{
-		height : 100vh;
+		height : 100%;
 	}
 	.heading {
 		height : 100%;
@@ -103,4 +103,8 @@ a{
 	.btn{
 		width : 100%;
 	}
+}
+
+.home{
+	height: 100vh;
 }
