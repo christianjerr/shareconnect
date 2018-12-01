@@ -45,7 +45,7 @@ document.body.onload = function(){
 }
 
 
-
+/*
 let status = document.getElementById('home-input');
 let homeBtn = document.getElementById('home-btn');
 let list = document.querySelector('.post');
@@ -59,5 +59,9 @@ homeBtn.addEventListener('click' , function(){
 	
 	
 })
+*/
 
+let btns = document.querySelectorAll('.btn');	
 
+Array.from(btns).forEach(function(item){ item.setAttribute('target' , '_blank') })
+	
